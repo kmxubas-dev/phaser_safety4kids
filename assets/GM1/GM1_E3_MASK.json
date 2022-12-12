@@ -1,0 +1,250 @@
+{
+	"textures": [
+		{
+			"image": "GM1_E3_MASK",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2359,
+				"h": 2416
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "shadow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 216,
+						"y": 130,
+						"w": 612,
+						"h": 819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 612,
+						"h": 819
+					}
+				},
+				{
+					"filename": "frnt_outline",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 188,
+						"y": 100,
+						"w": 625,
+						"h": 799
+					},
+					"frame": {
+						"x": 1,
+						"y": 822,
+						"w": 625,
+						"h": 799
+					}
+				},
+				{
+					"filename": "bck_outline",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 188,
+						"y": 101,
+						"w": 625,
+						"h": 799
+					},
+					"frame": {
+						"x": 615,
+						"y": 1,
+						"w": 625,
+						"h": 799
+					}
+				},
+				{
+					"filename": "frnt_base",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 192,
+						"y": 104,
+						"w": 617,
+						"h": 792
+					},
+					"frame": {
+						"x": 1,
+						"y": 1623,
+						"w": 617,
+						"h": 792
+					}
+				},
+				{
+					"filename": "frnt_shadow3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 192,
+						"y": 104,
+						"w": 617,
+						"h": 791
+					},
+					"frame": {
+						"x": 620,
+						"y": 1623,
+						"w": 617,
+						"h": 791
+					}
+				},
+				{
+					"filename": "bck_base",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 192,
+						"y": 105,
+						"w": 617,
+						"h": 791
+					},
+					"frame": {
+						"x": 628,
+						"y": 802,
+						"w": 617,
+						"h": 791
+					}
+				},
+				{
+					"filename": "bck_shadow1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 192,
+						"y": 105,
+						"w": 615,
+						"h": 791
+					},
+					"frame": {
+						"x": 1242,
+						"y": 1,
+						"w": 615,
+						"h": 791
+					}
+				},
+				{
+					"filename": "frnt_shadow1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 193,
+						"y": 104,
+						"w": 554,
+						"h": 786
+					},
+					"frame": {
+						"x": 1239,
+						"y": 1595,
+						"w": 554,
+						"h": 786
+					}
+				},
+				{
+					"filename": "frnt_shadow2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 205,
+						"y": 242,
+						"w": 552,
+						"h": 654
+					},
+					"frame": {
+						"x": 1247,
+						"y": 794,
+						"w": 552,
+						"h": 654
+					}
+				},
+				{
+					"filename": "bck_shadow3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 229,
+						"y": 104,
+						"w": 563,
+						"h": 559
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1450,
+						"w": 563,
+						"h": 559
+					}
+				},
+				{
+					"filename": "bck_shadow2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1001,
+						"h": 1001
+					},
+					"spriteSourceSize": {
+						"x": 348,
+						"y": 675,
+						"w": 180,
+						"h": 159
+					},
+					"frame": {
+						"x": 1795,
+						"y": 2011,
+						"w": 180,
+						"h": 159
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

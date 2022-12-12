@@ -1,0 +1,167 @@
+{
+    "anims": [
+        {
+            "key": "gm1_e2_balloons_b1_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b1_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b1_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm1_e2_balloons_b2_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b2_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b2_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm1_e2_balloons_b3_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b3_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b3_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm1_e2_balloons_b4_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b4_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b4_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm1_e2_balloons_b5_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b5_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b5_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm1_e2_balloons_b6_pop",
+            "type": "frame",
+            "frameRate": 5,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": 0,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b6_pop1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm1_e2_balloons",
+                    "frame": "b6_pop2",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "globalTimeScale": 1
+}

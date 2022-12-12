@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "NARRATOR",
+			"format": "RGBA8888",
+			"size": {
+				"w": 3159,
+				"h": 1471
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "wave",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 683,
+						"h": 1469
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 683,
+						"h": 1469
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 683,
+						"h": 1469
+					}
+				},
+				{
+					"filename": "default",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 559,
+						"h": 1469
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 559,
+						"h": 1469
+					},
+					"frame": {
+						"x": 686,
+						"y": 1,
+						"w": 559,
+						"h": 1469
+					}
+				},
+				{
+					"filename": "thumbsup",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 559,
+						"h": 1469
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 559,
+						"h": 1469
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1,
+						"w": 559,
+						"h": 1469
+					}
+				},
+				{
+					"filename": "worry",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 788,
+						"h": 1450
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 788,
+						"h": 1450
+					},
+					"frame": {
+						"x": 1808,
+						"y": 1,
+						"w": 788,
+						"h": 1450
+					}
+				},
+				{
+					"filename": "sad",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 560,
+						"h": 1443
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 560,
+						"h": 1442
+					},
+					"frame": {
+						"x": 2598,
+						"y": 1,
+						"w": 560,
+						"h": 1442
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

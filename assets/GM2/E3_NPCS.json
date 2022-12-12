@@ -1,0 +1,187 @@
+{
+	"textures": [
+		{
+			"image": "E3_NPCS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 223,
+				"h": 207
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "teacher_sport",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 78
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 63,
+						"h": 78
+					}
+				},
+				{
+					"filename": "friend_parents",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 47
+					},
+					"frame": {
+						"x": 1,
+						"y": 81,
+						"w": 133,
+						"h": 47
+					}
+				},
+				{
+					"filename": "police",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 58
+					},
+					"frame": {
+						"x": 66,
+						"y": 1,
+						"w": 77,
+						"h": 58
+					}
+				},
+				{
+					"filename": "librarian",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 77
+					},
+					"frame": {
+						"x": 136,
+						"y": 61,
+						"w": 51,
+						"h": 77
+					}
+				},
+				{
+					"filename": "lifeguard",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 55
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 55
+					},
+					"frame": {
+						"x": 145,
+						"y": 1,
+						"w": 77,
+						"h": 55
+					}
+				},
+				{
+					"filename": "doctor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 76
+					},
+					"frame": {
+						"x": 1,
+						"y": 130,
+						"w": 51,
+						"h": 76
+					}
+				},
+				{
+					"filename": "teacher",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 59
+					},
+					"frame": {
+						"x": 54,
+						"y": 130,
+						"w": 76,
+						"h": 59
+					}
+				},
+				{
+					"filename": "pastor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 52
+					},
+					"frame": {
+						"x": 132,
+						"y": 140,
+						"w": 77,
+						"h": 52
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

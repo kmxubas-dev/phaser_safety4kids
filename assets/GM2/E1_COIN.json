@@ -1,0 +1,61 @@
+{
+	"textures": [
+		{
+			"image": "E1_COIN",
+			"format": "RGBA8888",
+			"size": {
+				"w": 80,
+				"h": 83
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "coin",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 76,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 76,
+						"h": 75
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 75
+					}
+				},
+				{
+					"filename": "shadow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 8
+					},
+					"frame": {
+						"x": 0,
+						"y": 75,
+						"w": 80,
+						"h": 8
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

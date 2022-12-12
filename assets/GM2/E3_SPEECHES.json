@@ -1,0 +1,187 @@
+{
+	"textures": [
+		{
+			"image": "E3_SPEECHES",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1948,
+				"h": 624
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "doctor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "friend_parents",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 488,
+						"y": 1,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "librarian",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 975,
+						"y": 1,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "lifeguard",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 1462,
+						"y": 1,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "pastor",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 1,
+						"y": 313,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "police",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 488,
+						"y": 313,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "teacher",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 975,
+						"y": 313,
+						"w": 485,
+						"h": 310
+					}
+				},
+				{
+					"filename": "teacher_sport",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 485,
+						"h": 310
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 485,
+						"h": 310
+					},
+					"frame": {
+						"x": 1462,
+						"y": 313,
+						"w": 485,
+						"h": 310
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

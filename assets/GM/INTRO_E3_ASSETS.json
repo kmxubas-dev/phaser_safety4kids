@@ -1,0 +1,111 @@
+{
+  "frames": {
+    "board": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 1449,
+        "h": 878
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1449,
+        "h": 878
+      },
+      "sourceSize": {
+        "w": 1449,
+        "h": 878
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "item3": {
+      "frame": {
+        "x": 1,
+        "y": 881,
+        "w": 166,
+        "h": 158
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 158
+      },
+      "sourceSize": {
+        "w": 166,
+        "h": 158
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "item2": {
+      "frame": {
+        "x": 169,
+        "y": 881,
+        "w": 156,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 156,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 157,
+        "h": 135
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "item1": {
+      "frame": {
+        "x": 327,
+        "y": 881,
+        "w": 147,
+        "h": 145
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 4,
+        "w": 147,
+        "h": 145
+      },
+      "sourceSize": {
+        "w": 147,
+        "h": 149
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "INTRO_E3_ASSETS.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1451,
+      "h": 1040
+    },
+    "scale": 1
+  }
+}

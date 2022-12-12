@@ -1,0 +1,271 @@
+<div id="main" style="width:1500px; height:999px;">
+    <!-- <div class="absolute card bg-blue-400 shadow-2xl w-full h-full rounded-3xl transform -rotate-3"></div> -->
+    <!-- <div class="absolute card bg-red-400 shadow-2xl w-full h-full rounded-3xl transform rotate-3"></div> -->
+    <div class="relative w-full h-full rounded-3xl px-10 py-10 bg-gray-100 shadow-xl">
+        <div class="flex justify-between align-middle w-full">
+            <button type="button" id="btn_leaderboard" class="inline-flex items-center justify-center
+                p-2 bg-blue-400 text-3xl text-white rounded-md hover:bg-blue-500 focus:outline-none
+                focus:ring-2 focus:ring-inset focus:ring-blue-500">🏆</button>
+            <h1 class="pt-3 text-2xl text-center font-semibold text-gray-700">
+                Family and Relationships
+            </h1>
+            <button type="button" id="btn_close" class="inline-flex items-center justify-center p-2 bg-red-400 text-white
+            rounded-md hover:bg-red-500 focus:outline-none focus:ring-2 
+            focus:ring-inset focus:ring-red-500">
+                <span class="sr-only">Close menu</span>
+                <!-- Heroicon name: outline/x -->
+                <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" viewBox="0 0 24 24" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="my-5 px-10 overflow-auto" style="height:90%;">
+            <!-- ROW -->
+            <div class="flex justify-center gap-3 mb-3" style="height:25em;">
+                <!-- CARD - GM3_E1 -->
+                <div id="gm3_e1" class="relative w-80 h-full bg-white rounded-lg overflow-hidden shadow">
+                    <img src="/radv_phaser/assets/COVERS/GM3_E1_COVER.png" alt="image"
+                    class="absolute top-0 w-full h-3/6"/>
+                    <div class="absolute bottom-0 w-full h-3/6 px-3 py-5 text-center bg-white hover:h-full">
+                        <h3 class="block mb-3 text-dark text-md font-semibold hover:text-primary">
+                            Family Structures
+                        </h3>
+                        <div id="e1_locked" class="mb-3">
+                            <span class="inline-block text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0
+                                    0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0
+                                    0 0-2-2z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Locked</span>
+                        </div>
+                        <div id="e1_playable" class="hidden mb-3">
+                            <span class="inline-block text-blue-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5
+                                    0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Playable</span>
+                        </div>
+                        <div id="e1_completed" class="hidden mb-3">
+                            <span class="inline-block text-green-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75
+                                    0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06
+                                    1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0
+                                    0-.01-1.05z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Completed</span>
+                        </div>
+                        <button id="e1_btn" class="inline-block w-full p-3 mb-3 rounded-full font-medium
+                            border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500 to-blue-500
+                            hover:text-white transition disabled:from-gray-200 disabled:to-gray-200
+                            disabled:bg-gray-200 disabled:text-black" disabled>Play</button>
+
+                        <div id="e1_completed" class="p-5">
+                            <h5 class="inline-block px-2 py-1 font-bold">Exercise Information</h5>
+                            <p id="e1_timestamp" class="text-left">Last played:</p>
+                            <p id="e1_score" class="text-left">Highest score:</p>
+                        </div>
+                        <button id="e1_leaderboard" class="inline-block w-full p-3 mb-3 font-medium
+                            rounded-full border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500
+                            to-blue-500 hover:text-white transition">Leaderboard</button>
+                    </div>
+                </div>
+
+                <!-- CARD - GM3_E2 -->
+                <div id="gm3_e2" class="relative w-80 h-full bg-white rounded-lg overflow-hidden shadow">
+                    <img src="/radv_phaser/assets/COVERS/GM3_E2_COVER.png" alt="image"
+                    class="absolute top-0 w-full h-3/6"/>
+                    <div class="absolute bottom-0 w-full h-3/6 px-3 py-5 text-center bg-white hover:h-full">
+                        <h3 class="block mb-3 text-dark text-md font-semibold hover:text-primary">
+                            What are my rights?
+                        </h3>
+                        <div id="e2_locked" class="mb-3">
+                            <span class="inline-block text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0
+                                    0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0
+                                    0 0-2-2z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Locked</span>
+                        </div>
+                        <div id="e2_playable" class="hidden mb-3">
+                            <span class="inline-block text-blue-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5
+                                    0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Playable</span>
+                        </div>
+                        <div id="e2_completed" class="hidden mb-3">
+                            <span class="inline-block text-green-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75
+                                    0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06
+                                    1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0
+                                    0-.01-1.05z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Completed</span>
+                        </div>
+                        <button id="e2_btn" class="inline-block w-full p-3 mb-3 rounded-full font-medium
+                            border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500 to-blue-500
+                            hover:text-white transition disabled:from-gray-200 disabled:to-gray-200
+                            disabled:bg-gray-200 disabled:text-black" disabled>Play</button>
+
+                        <div id="e2_completed" class="p-5">
+                            <h5 class="inline-block px-2 py-1 font-bold">Exercise Information</h5>
+                            <p id="e2_timestamp" class="text-left">Last played:</p>
+                            <p id="e2_score" class="text-left">Highest score:</p>
+                        </div>
+                        <button id="e2_leaderboard" class="inline-block w-full p-3 mb-3 font-medium
+                            rounded-full border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500
+                            to-blue-500 hover:text-white transition">Leaderboard</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROW -->
+            <div class="flex justify-center gap-3 mb-3" style="height:25em;">
+                <!-- CARD - GM3_E3 -->
+                <div id="gm3_e3" class="relative w-80 h-full bg-white rounded-lg overflow-hidden shadow">
+                    <img src="/radv_phaser/assets/COVERS/GM3_E3_COVER.png" alt="image"
+                    class="absolute top-0 w-full h-3/6"/>
+                    <div class="absolute bottom-0 w-full h-3/6 px-3 py-5 text-center bg-white hover:h-full">
+                        <h3 class="block mb-3 text-dark text-md font-semibold hover:text-primary">
+                            Letter to my Parents
+                        </h3>
+                        <div id="e3_locked" class="mb-3">
+                            <span class="inline-block text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0
+                                    0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0
+                                    0 0-2-2z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Locked</span>
+                        </div>
+                        <div id="e3_playable" class="hidden mb-3">
+                            <span class="inline-block text-blue-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5
+                                    0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Playable</span>
+                        </div>
+                        <div id="e3_completed" class="hidden mb-3">
+                            <span class="inline-block text-green-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75
+                                    0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06
+                                    1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0
+                                    0-.01-1.05z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Completed</span>
+                        </div>
+                        <button id="e3_btn" class="inline-block w-full p-3 mb-3 rounded-full font-medium
+                            border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500 to-blue-500
+                            hover:text-white transition disabled:from-gray-200 disabled:to-gray-200
+                            disabled:bg-gray-200 disabled:text-black" disabled>Play</button>
+
+                        <div id="e3_completed" class="p-5">
+                            <h5 class="inline-block px-2 py-1 font-bold">Exercise Information</h5>
+                            <p id="e3_timestamp" class="text-left">Last played:</p>
+                            <p id="e3_score" class="text-left">Highest score:</p>
+                        </div>
+                        <button id="e3_leaderboard" class="inline-block w-full p-3 mb-3 font-medium
+                            rounded-full border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500
+                            to-blue-500 hover:text-white transition">Leaderboard</button>
+                    </div>
+                </div>
+
+                <!-- CARD - GM3_E4 -->
+                <div id="gm3_e4" class="relative w-80 h-full bg-white rounded-lg overflow-hidden shadow">
+                    <img src="/radv_phaser/assets/COVERS/GM3_E4_COVER.png" alt="image"
+                    class="absolute top-0 w-full h-3/6"/>
+                    <div class="absolute bottom-0 w-full h-3/6 px-3 py-5 text-center bg-white hover:h-full">
+                        <h3 class="block mb-3 text-dark text-md font-semibold hover:text-primary">
+                            Respectful Relationships
+                        </h3>
+                        <div id="e4_locked" class="mb-3">
+                            <span class="inline-block text-gray-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0
+                                    0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0
+                                    0 0-2-2z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Locked</span>
+                        </div>
+                        <div id="e4_playable" class="hidden mb-3">
+                            <span class="inline-block text-blue-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5
+                                    0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Playable</span>
+                        </div>
+                        <div id="e4_completed" class="hidden mb-3">
+                            <span class="inline-block text-green-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 16 16" class="w-8 h-8">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75
+                                    0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06
+                                    1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0
+                                    0-.01-1.05z"/>
+                                </svg>
+                            </span><br>
+                            <span class="inline-block px-2 py-1 text-gray-600 text-sm font-bold
+                                bg-gray-100 rounded-full">Completed</span>
+                        </div>
+                        <button id="e4_btn" class="inline-block w-full p-3 mb-3 rounded-full font-medium
+                            border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500 to-blue-500
+                            hover:text-white transition disabled:from-gray-200 disabled:to-gray-200
+                            disabled:bg-gray-200 disabled:text-black" disabled>Play</button>
+
+                        <div id="e4_completed" class="p-5">
+                            <h5 class="inline-block px-2 py-1 font-bold">Exercise Information</h5>
+                            <p id="e4_timestamp" class="text-left">Last played:</p>
+                            <p id="e4_score" class="text-left">Highest score:</p>
+                        </div>
+                        <button id="e4_leaderboard" class="inline-block w-full p-3 mb-3 font-medium
+                            rounded-full border border-[#E5E7EB] hover:bg-gradient-to-r from-green-500
+                            to-blue-500 hover:text-white transition">Leaderboard</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

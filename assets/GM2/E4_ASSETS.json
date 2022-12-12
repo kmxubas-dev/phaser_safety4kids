@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "E4_ASSETS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1922,
+				"h": 3061
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "interface1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1920,
+						"h": 1080
+					}
+				},
+				{
+					"filename": "interface2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 1,
+						"y": 1083,
+						"w": 1920,
+						"h": 1080
+					}
+				},
+				{
+					"filename": "paperpad",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1282,
+						"h": 895
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1282,
+						"h": 895
+					},
+					"frame": {
+						"x": 1,
+						"y": 2165,
+						"w": 1282,
+						"h": 895
+					}
+				},
+				{
+					"filename": "arrow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 216,
+						"h": 141
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 216,
+						"h": 141
+					},
+					"frame": {
+						"x": 1285,
+						"y": 2165,
+						"w": 216,
+						"h": 141
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

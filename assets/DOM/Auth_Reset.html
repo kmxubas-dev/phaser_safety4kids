@@ -1,0 +1,46 @@
+<div id="main" style="width:600px;">
+    <div class="relative w-full rounded-3xl px-8 py-8 bg-gray-100 shadow-md">
+        <label for="" class="block mt-3 text-gray-700 text-center font-semibold">
+            Reset Password
+        </label>
+        <div class="mt-5 text-s text-gray-600">
+            Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.
+        </div>
+
+        <form method="#" action="#" id="form" class="mt-10">
+            <div>
+                <input type="email" placeholder="Email" id="email" class="block w-full h-11
+                mt-1 bg-gray-100 border-none rounded-xl shadow-lg 
+                hover:bg-blue-100 focus:bg-blue-100 focus:ring-0">
+                <span id="email_error" class="hidden block ml-3 pt-1 text-red-600">Error</span>
+            </div>
+
+            <div class="mt-7">
+                <button id="btn_reset" class="w-full py-3 text-white bg-blue-500
+                    rounded-xl shadow-xl hover:shadow-inner focus:outline-none transition 
+                    duration-500 ease-in-out transform hover:-translate-x hover:scale-105">Email Password Reset Link
+                </button>
+            </div>
+
+            <div class="flex mt-8 items-center text-center">
+                <hr class="border-gray-300 border-1 w-full rounded-md">
+                <label class="block font-medium text-sm text-gray-600 w-full">
+                    Login/Register
+                </label>
+                <hr class="border-gray-300 border-1 w-full rounded-md">
+            </div>
+
+            <div class="flex mt-7 justify-center w-full">
+                <button type="button" id="btn_login" class="mr-5 px-4 py-2 text-white bg-red-500
+                    border-none rounded-xl shadow-xl cursor-pointer hover:shadow-inner transition
+                    duration-500 ease-in-out transform hover:-translate-x hover:scale-105">Login
+                </button>
+
+                <button type="button" id="btn_register" class="bg-blue-500 border-none px-4 py-2 rounded-xl cursor-pointer text-white shadow-xl 
+                hover:shadow-inner transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                    Register
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

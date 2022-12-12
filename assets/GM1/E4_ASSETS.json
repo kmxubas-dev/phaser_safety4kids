@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "E4_ASSETS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 765,
+				"h": 707
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "kid",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 330,
+						"h": 705
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 330,
+						"h": 705
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 330,
+						"h": 705
+					}
+				},
+				{
+					"filename": "bin",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 260,
+						"h": 315
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 260,
+						"h": 315
+					},
+					"frame": {
+						"x": 333,
+						"y": 1,
+						"w": 260,
+						"h": 315
+					}
+				},
+				{
+					"filename": "paper",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 228,
+						"h": 242
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 228,
+						"h": 242
+					},
+					"frame": {
+						"x": 333,
+						"y": 318,
+						"w": 228,
+						"h": 242
+					}
+				},
+				{
+					"filename": "bag",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 257
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 257
+					},
+					"frame": {
+						"x": 563,
+						"y": 318,
+						"w": 201,
+						"h": 257
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

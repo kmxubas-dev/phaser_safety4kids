@@ -1,0 +1,161 @@
+{
+    "anims": [
+        {
+            "key": "gm2_e3_character_walk_down",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "down0",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "down1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "down2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "down3",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e3_character_walk_left",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "left0",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "left3",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e3_character_walk_right",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "right0",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "right3",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e3_character_walk_up",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "up0",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "up1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "up2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e3_character",
+                    "frame": "up3",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "globalTimeScale": 1
+}

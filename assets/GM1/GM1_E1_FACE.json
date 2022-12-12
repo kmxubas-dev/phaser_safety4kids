@@ -1,0 +1,166 @@
+{
+	"textures": [
+		{
+			"image": "GM1_E1_FACE",
+			"format": "RGBA8888",
+			"size": {
+				"w": 558,
+				"h": 694
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "nose_buzz",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 311,
+						"y": 245,
+						"w": 462,
+						"h": 455
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 462,
+						"h": 455
+					}
+				},
+				{
+					"filename": "eyes",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 292,
+						"y": 297,
+						"w": 190,
+						"h": 239
+					},
+					"frame": {
+						"x": 0,
+						"y": 455,
+						"w": 190,
+						"h": 239
+					}
+				},
+				{
+					"filename": "pupils_buzz",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 325,
+						"y": 297,
+						"w": 135,
+						"h": 233
+					},
+					"frame": {
+						"x": 190,
+						"y": 455,
+						"w": 135,
+						"h": 233
+					}
+				},
+				{
+					"filename": "brows_buzz",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 257,
+						"y": 274,
+						"w": 95,
+						"h": 232
+					},
+					"frame": {
+						"x": 325,
+						"y": 455,
+						"w": 95,
+						"h": 232
+					}
+				},
+				{
+					"filename": "brows",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 253,
+						"y": 282,
+						"w": 96,
+						"h": 222
+					},
+					"frame": {
+						"x": 462,
+						"y": 0,
+						"w": 96,
+						"h": 222
+					}
+				},
+				{
+					"filename": "pupils",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 350,
+						"y": 332,
+						"w": 92,
+						"h": 178
+					},
+					"frame": {
+						"x": 462,
+						"y": 222,
+						"w": 92,
+						"h": 178
+					}
+				},
+				{
+					"filename": "nose",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1000,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 439,
+						"y": 433,
+						"w": 122,
+						"h": 134
+					},
+					"frame": {
+						"x": 420,
+						"y": 455,
+						"w": 122,
+						"h": 134
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

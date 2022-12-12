@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "E5_ASSETS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1290,
+				"h": 1403
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "character0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 111,
+						"y": 208,
+						"w": 637,
+						"h": 872
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 637,
+						"h": 872
+					}
+				},
+				{
+					"filename": "character1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 801,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 74,
+						"y": 208,
+						"w": 649,
+						"h": 872
+					},
+					"frame": {
+						"x": 640,
+						"y": 1,
+						"w": 649,
+						"h": 872
+					}
+				},
+				{
+					"filename": "inhale",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 718,
+						"h": 246
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 718,
+						"h": 246
+					},
+					"frame": {
+						"x": 1,
+						"y": 875,
+						"w": 718,
+						"h": 246
+					}
+				},
+				{
+					"filename": "exhale",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 672,
+						"h": 279
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 672,
+						"h": 279
+					},
+					"frame": {
+						"x": 1,
+						"y": 1123,
+						"w": 672,
+						"h": 279
+					}
+				},
+				{
+					"filename": "bubble",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 292,
+						"h": 291
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 291,
+						"h": 291
+					},
+					"frame": {
+						"x": 721,
+						"y": 875,
+						"w": 291,
+						"h": 291
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

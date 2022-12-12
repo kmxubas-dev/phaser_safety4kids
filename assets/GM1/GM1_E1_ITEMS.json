@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "GM1_E1_ITEMS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1808,
+				"h": 1690
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "heart",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 910,
+						"h": 736
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 905,
+						"h": 730
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 905,
+						"h": 730
+					}
+				},
+				{
+					"filename": "rattle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 912,
+						"h": 462
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 911,
+						"h": 455
+					},
+					"frame": {
+						"x": 0,
+						"y": 730,
+						"w": 911,
+						"h": 455
+					}
+				},
+				{
+					"filename": "butterfly",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 909,
+						"h": 572
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 6,
+						"w": 903,
+						"h": 566
+					},
+					"frame": {
+						"x": 905,
+						"y": 0,
+						"w": 903,
+						"h": 566
+					}
+				},
+				{
+					"filename": "cloud",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 677,
+						"h": 913
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 669,
+						"h": 908
+					},
+					"frame": {
+						"x": 911,
+						"y": 566,
+						"w": 669,
+						"h": 908
+					}
+				},
+				{
+					"filename": "lightning",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 903,
+						"h": 514
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 894,
+						"h": 505
+					},
+					"frame": {
+						"x": 0,
+						"y": 1185,
+						"w": 894,
+						"h": 505
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

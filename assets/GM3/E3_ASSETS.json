@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "E3_ASSETS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2856,
+				"h": 1838
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "pad3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1427,
+						"h": 919
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1427,
+						"h": 919
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1427,
+						"h": 919
+					}
+				},
+				{
+					"filename": "pad",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1425,
+						"h": 917
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1425,
+						"h": 917
+					},
+					"frame": {
+						"x": 1430,
+						"y": 1,
+						"w": 1425,
+						"h": 917
+					}
+				},
+				{
+					"filename": "pad2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1425,
+						"h": 917
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1425,
+						"h": 917
+					},
+					"frame": {
+						"x": 1430,
+						"y": 920,
+						"w": 1425,
+						"h": 917
+					}
+				},
+				{
+					"filename": "miniboard",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 286,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 285,
+						"h": 360
+					},
+					"frame": {
+						"x": 1,
+						"y": 922,
+						"w": 285,
+						"h": 360
+					}
+				},
+				{
+					"filename": "arrow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 218,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 218,
+						"h": 143
+					},
+					"frame": {
+						"x": 288,
+						"y": 922,
+						"w": 218,
+						"h": 143
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

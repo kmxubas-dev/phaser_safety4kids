@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="dependencies/css/app.css">
+
+        <!-- Scripts -->
+        <script src="dependencies/js/app.js" defer></script>
+
+        <!-- Custom -->
+        <link rel="preload" as="font" crossorigin="anonymous" type="font/ttf"
+            href="dependencies/My Kids Handwritten-Basic.ttf">
+        <link rel="preload" as="font" crossorigin="anonymous" type="font/ttf"
+            href="dependencies/GOODDP.ttf">
+        <style>
+            @font-face {
+                font-family: Font_Main;
+                src: url('dependencies/My Kids Handwritten-Basic.ttf');
+            }
+            @font-face {
+                font-family: Font_Header;
+                src: url('dependencies/GOODDP.ttf');
+            }
+        </style>
+
+        <title>Safety4Kids</title>
+    </head>
+    <body>
+        <div class="phaser-game"></div>
+        <script src="dependencies/phaser.min.js"></script>
+        <script type="module" src="scripts/main.js"></script>
+    </body>
+</html>

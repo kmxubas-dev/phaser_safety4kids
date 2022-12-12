@@ -1,0 +1,166 @@
+{
+	"textures": [
+		{
+			"image": "E6_ITEMS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 567,
+				"h": 882
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "feather",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 622
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 622
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 226,
+						"h": 622
+					}
+				},
+				{
+					"filename": "stick",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 880
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 880
+					},
+					"frame": {
+						"x": 229,
+						"y": 1,
+						"w": 58,
+						"h": 880
+					}
+				},
+				{
+					"filename": "button",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 223,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 223,
+						"h": 219
+					},
+					"frame": {
+						"x": 1,
+						"y": 625,
+						"w": 223,
+						"h": 219
+					}
+				},
+				{
+					"filename": "pipecleaner",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 782
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 782
+					},
+					"frame": {
+						"x": 289,
+						"y": 1,
+						"w": 58,
+						"h": 782
+					}
+				},
+				{
+					"filename": "eye",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 205
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 205
+					},
+					"frame": {
+						"x": 349,
+						"y": 1,
+						"w": 217,
+						"h": 205
+					}
+				},
+				{
+					"filename": "popsiclestick",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 102,
+						"h": 376
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 101,
+						"h": 376
+					},
+					"frame": {
+						"x": 349,
+						"y": 208,
+						"w": 101,
+						"h": 376
+					}
+				},
+				{
+					"filename": "sequin",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 116
+					},
+					"frame": {
+						"x": 349,
+						"y": 586,
+						"w": 116,
+						"h": 116
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}

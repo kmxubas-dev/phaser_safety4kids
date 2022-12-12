@@ -1,0 +1,789 @@
+{
+    "anims": [
+        {
+            "key": "gm2_e1_character_default_walk_down",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_front1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_front2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_front3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_front4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_default_walk_left",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_left3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_left4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_default_walk_right",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_right3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_right4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_default_walk_up",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_back1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_back2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_back3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "default_back4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        
+        {
+            "key": "gm2_e1_character_invisible_walk_down",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_front1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_front2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_front3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_front4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_invisible_walk_left",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_left3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_left4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_invisible_walk_right",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_right3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_right4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_invisible_walk_up",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_back1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_back2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_back3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "invisible_back4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        
+        {
+            "key": "gm2_e1_character_superhero_walk_down",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_front1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_front2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_front3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_front4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_superhero_walk_left",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_left3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_left4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_superhero_walk_right",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_right3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_right4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_superhero_walk_up",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_back1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_back2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_back3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "superhero_back4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        
+        {
+            "key": "gm2_e1_character_sneak_walk_down",
+            "type": "frame",
+            "frameRate": 3,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_front1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_front2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_front3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_front4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_sneak_walk_left",
+            "type": "frame",
+            "frameRate": 3,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_left3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_left4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_sneak_walk_right",
+            "type": "frame",
+            "frameRate": 3,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_right3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_right4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_sneak_walk_up",
+            "type": "frame",
+            "frameRate": 3,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_back1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_back2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_back3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "sneak_back4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        
+        {
+            "key": "gm2_e1_character_shield_walk_down",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_front1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_front2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_front3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_front4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_shield_walk_left",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_left1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_left2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_left3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_left4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_shield_walk_right",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_right1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_right2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_right3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_right4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "key": "gm2_e1_character_shield_walk_up",
+            "type": "frame",
+            "frameRate": 8,
+            "duration": 1.5,
+            "skipMissedFrames": true,
+            "delay": 0,
+            "repeat": -1,
+            "repeatDelay": 0,
+            "yoyo": false,
+            "showOnStart": false,
+            "hideOnComplete": false,
+            "frames": [
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_back1",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_back2",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_back3",
+                    "duration": 0,
+                    "visible": false
+                },
+                {
+                    "key": "gm2_e1_character",
+                    "frame": "shield_back4",
+                    "duration": 0,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "globalTimeScale": 1
+}

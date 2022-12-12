@@ -1,0 +1,103 @@
+{
+	"textures": [
+		{
+			"image": "E6_ASSETS",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1793,
+				"h": 1872
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "board",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 501,
+						"h": 838
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 501,
+						"h": 837
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 501,
+						"h": 837
+					}
+				},
+				{
+					"filename": "folder_inside",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1288,
+						"h": 882
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1288,
+						"h": 882
+					},
+					"frame": {
+						"x": 504,
+						"y": 1,
+						"w": 1288,
+						"h": 882
+					}
+				},
+				{
+					"filename": "folder_outside",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 733,
+						"h": 973
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 733,
+						"h": 973
+					},
+					"frame": {
+						"x": 1,
+						"y": 885,
+						"w": 733,
+						"h": 973
+					}
+				},
+				{
+					"filename": "craftingbox",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 553,
+						"h": 986
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 553,
+						"h": 986
+					},
+					"frame": {
+						"x": 736,
+						"y": 885,
+						"w": 553,
+						"h": 986
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.7"
+	}
+}
