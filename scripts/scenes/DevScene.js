@@ -1,4 +1,3 @@
-import { API } from "../classes/API.js";
 import { Button } from "../classes/Button.js";
 
 export class DevScene extends Phaser.Scene 
@@ -19,7 +18,7 @@ export class DevScene extends Phaser.Scene
             // {scene:'auth_login', name:'Login'},
             // {scene:'auth_register', name:'Register'},
             {scene:'gm_interface', name:'General Interface'},
-            {scene:'gm_completion', name:'Overall Completion'},
+            // {scene:'gm_completion', name:'Overall Completion'},
             // 'loading',
         ];
         this.scenes_intro = [
@@ -27,7 +26,6 @@ export class DevScene extends Phaser.Scene
             {scene:'intro_e1', name:'Introducing Dawn'},
             {scene:'intro_e2', name:'What Is Domestic Violence?'},
             {scene:'intro_e3', name:'Affirmations'},
-            {scene:'intro_completion', name:'Introduction Module Completion'}
         ];
         this.scenes_gm1 = [
             {scene:'gm1_intro', name:'My Feelings and Emotions Intro'},
@@ -37,7 +35,6 @@ export class DevScene extends Phaser.Scene
             {scene:'gm1_e4', name:'What I Can and Can\’t Control'},
             {scene:'gm1_e5', name:'Managing Your Anger'},
             {scene:'gm1_e6', name:'The Feel Good File'},
-            {scene:'gm1_completion', name:'GM1 Completion'}
         ];
         this.scenes_gm2 = [
             {scene:'gm2_intro', name:'Safety Intro'},
@@ -46,7 +43,6 @@ export class DevScene extends Phaser.Scene
             {scene:'gm2_e3', name:'Helpful Communities'},
             {scene:'gm2_e4', name:'Safety Planning'},
             {scene:'gm2_e5', name:'Online Safety'},
-            {scene:'gm2_completion', name:'GM2 Completion'}
         ];
         this.scenes_gm3 = [
             {scene:'gm3_intro', name:'Family and Relationships Intro'},
@@ -54,18 +50,15 @@ export class DevScene extends Phaser.Scene
             {scene:'gm3_e2', name:'What Are My Rights?'},
             {scene:'gm3_e3', name:'Letter to My Parents'},
             {scene:'gm3_e4', name:'Respectful Relationsips'},
-            {scene:'gm3_completion', name:'GM3 Completion'}
         ];
     }
 
     preload () 
     {
-        this.api = new API();
         this.sound.stopAll();
         this.cameras.main.setBackgroundColor(0x308880);
         this.add.image(this.scale.width/2, this.scale.height/2-0.5, 'bg').setScale(1);
         this.add.image(440, 250, 'agik_white').setScale(0.3);
-        this.api.auth_check().then((res) => { if (!res) this.scene.start('auth_login'); });
     }
 
     create () 

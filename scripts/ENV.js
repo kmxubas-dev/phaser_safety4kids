@@ -8,7 +8,7 @@ const PATHS = {
     scripts: './../',
     scripts_scenes: './../../',
 
-    phaser_assets: 'radv_phaser/assets/'
+    phaser_assets: 'assets/'
 }
 
 const ASSETS = {

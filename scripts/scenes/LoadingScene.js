@@ -157,7 +157,7 @@ export class LoadingScene extends Phaser.Scene
 
     create () 
     {
-        this.scene.start('auth_login');
+        this.scene.start('dev');
     }
 
     update () 
