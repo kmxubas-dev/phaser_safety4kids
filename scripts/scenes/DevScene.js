@@ -14,21 +14,15 @@ export class DevScene extends Phaser.Scene
     init () 
     {
         this.allscenes = [
-            {scene:'dev', name:'Menu'},
-            // {scene:'auth_login', name:'Login'},
-            // {scene:'auth_register', name:'Register'},
             {scene:'gm_interface', name:'General Interface'},
-            // {scene:'gm_completion', name:'Overall Completion'},
-            // 'loading',
         ];
         this.scenes_intro = [
             {scene:'intro_interface', name:'Introduction Module Interface'},
-            {scene:'intro_e1', name:'Introducing Dawn'},
-            {scene:'intro_e2', name:'What Is Domestic Violence?'},
-            {scene:'intro_e3', name:'Affirmations'},
+            // {scene:'intro_e1', name:'Introducing Dawn'},
+            // {scene:'intro_e2', name:'What Is Domestic Violence?'},
+            // {scene:'intro_e3', name:'Affirmations'},
         ];
         this.scenes_gm1 = [
-            {scene:'gm1_intro', name:'My Feelings and Emotions Intro'},
             {scene:'gm1_e1', name:'Feelings in the Body'},
             {scene:'gm1_e2', name:'My Worries'},
             {scene:'gm1_e3', name:'Face Masks'},
@@ -37,7 +31,6 @@ export class DevScene extends Phaser.Scene
             {scene:'gm1_e6', name:'The Feel Good File'},
         ];
         this.scenes_gm2 = [
-            {scene:'gm2_intro', name:'Safety Intro'},
             {scene:'gm2_e1', name:'Superheroes and Magic'},
             {scene:'gm2_e2', name:'The Safety Hand'},
             {scene:'gm2_e3', name:'Helpful Communities'},
@@ -45,7 +38,6 @@ export class DevScene extends Phaser.Scene
             {scene:'gm2_e5', name:'Online Safety'},
         ];
         this.scenes_gm3 = [
-            {scene:'gm3_intro', name:'Family and Relationships Intro'},
             {scene:'gm3_e1', name:'Family Structures'},
             {scene:'gm3_e2', name:'What Are My Rights?'},
             {scene:'gm3_e3', name:'Letter to My Parents'},
