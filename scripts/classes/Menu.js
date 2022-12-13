@@ -2,7 +2,7 @@
 // MENU CLASS
 // ==================================================
 
-import { API } from "./API.js";
+// import { API } from "./API.js";
 import { Loader } from "./Loader.js";
 import { Button } from "./Button.js";
 import { Leaderboard } from "./Leaderboard.js";
@@ -19,9 +19,9 @@ export class Menu
         this.args.btnX = args.btnX || scene.scale.width-110;
         this.args.btnY = args.btnY || 80;
 
-        this.api = new API();
+        // this.api = new API();
         this.loader = new Loader(scene);
-        this.leaderboard = new Leaderboard(scene, {type:'overall'});
+        // this.leaderboard = new Leaderboard(scene, {type:'overall'});
         this.btn = new Button(this.scene, this.args.btnX, this.args.btnY, { w:80, h:60,
             txt:' ', texture:'btns_menu' }).setButton('menu').setVisible(false).setDepth(100)
             .setScrollFactor(0).on('pointerdown', () => { this.window.intro.restart(); });
@@ -127,11 +127,11 @@ export class Menu
         dom.getChildByID('btn_logout').addEventListener('click', () => {
             this.window.exit.restart();
             this.loader.show();
-            this.api.logout().then((res) => {
-                this.loader.show(false);
-                if (res.status === 204)
-                    setTimeout(() => scene.scene.start('auth_login'), 900);
-            });
+            // this.api.logout().then((res) => {
+            //     this.loader.show(false);
+            //     if (res.status === 204)
+            //         setTimeout(() => scene.scene.start('auth_login'), 900);
+            // });
         });
         return this;
     }

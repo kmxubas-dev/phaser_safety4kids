@@ -1,5 +1,3 @@
-import { API } from "../../classes/API.js";
-import { Loader } from "../../classes/Loader.js";
 import { Button } from "../../classes/Button.js";
 import { Menu } from "../../classes/Menu.js";
 import { GM1_Interface, GM2_Interface, GM3_Interface } from "../../classes/Interface.js";
@@ -22,37 +20,15 @@ export class InterfaceScene extends Phaser.Scene
 
     preload () 
     {
-        this.api = new API();
-        this.loader = new Loader(this).show();
         this.add.sprite(this.scale.width/2, this.scale.height/2, 'bg_gm_interface');
         this.menu = new Menu(this).setLayout('dev').show();
     }
 
     create () 
     {
-        this.api.progress_byModule('intro').then(res => {
-            if (res.progress !== res.max) this.scene.start('intro_interface');
-            else {
-                for (let i=1; i<=3; i++) {
-                    this.api.progress_byModule('gm'+i).then(res => {
-                        if (i === 3) this.loader.show(false);
-                        this['item'+i].setProgress(parseInt((res.progress/res.max)*100)+'%');
-                        this['item'+i].on('pointerdown', () => {
-                            if (res.progress === 0)
-                                this.scene.start('gm'+i+'_intro');
-                            else if (res.progress === res.max)
-                                this.scene.start('gm'+i+'_e1');
-                            else
-                                this.scene.start('gm'+i+'_e'+parseInt(res.progress+1));
-                        });
-                    });
-                }
-            }
-        });
-
-        this.gm1_interface = new GM1_Interface(this);
-        this.gm2_interface = new GM2_Interface(this);
-        this.gm3_interface = new GM3_Interface(this);
+        // this.gm1_interface = new GM1_Interface(this);
+        // this.gm2_interface = new GM2_Interface(this);
+        // this.gm3_interface = new GM3_Interface(this);
 
         let btn_intro = new Button(this, this.scale.width/2-750, this.scale.height/2-240,
             {w:250, txt:'< Go Outside'}).setButton('main_blue').on('pointerdown', () => {
@@ -84,6 +60,13 @@ export class InterfaceScene extends Phaser.Scene
         });
         this.item3.txt.setY(this.item3.txt.y-8);
         this.item3.interface.on('pointerdown', () => { this.gm3_interface.show(); });
+
+        for (let i=1; i<=3; i++) {
+            this['item'+i].setProgress(parseInt((1/1)*100)+'%');
+            this['item'+i].on('pointerdown', () => {
+                this.scene.start('gm'+i+'_e1');
+            });
+        }
     }
 
     update () 

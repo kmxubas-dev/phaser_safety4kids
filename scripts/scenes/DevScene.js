@@ -18,9 +18,6 @@ export class DevScene extends Phaser.Scene
         ];
         this.scenes_intro = [
             {scene:'intro_interface', name:'Introduction Module Interface'},
-            // {scene:'intro_e1', name:'Introducing Dawn'},
-            // {scene:'intro_e2', name:'What Is Domestic Violence?'},
-            // {scene:'intro_e3', name:'Affirmations'},
         ];
         this.scenes_gm1 = [
             {scene:'gm1_e1', name:'Feelings in the Body'},
@@ -79,14 +76,14 @@ export class DevScene extends Phaser.Scene
             y += 111;
         });
 
-        x = this.scale.width/2;
-        y = 95;
+        x = 210;
+        y = this.scale.height-100;
         this.scenes_gm1.forEach((scene, i) => {
-            let btn = new Button(this, x, y, {w:330, h:100, txt:scene.name, txtsize:'3.5em'})
+            let btn = new Button(this, x, y, {w:290, h:100, txt:scene.name, txtsize:'3.5em'})
                 .setButton('blue').setVisible(true).on('pointerdown', () => {
                     this.scene.start(scene.scene);
                 });
-            y += 111;
+            x += 300;
         });
 
         x = this.scale.width/2+350;

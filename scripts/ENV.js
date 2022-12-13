@@ -61,9 +61,6 @@ const ASSETS = {
         GM1_E3: PATHS.phaser_assets+'DOM/GM1_E3.html',
         GM1_E7: PATHS.phaser_assets+'DOM/GM1_E7.html',
     },
-    VIDS: {
-        PLACEHOLDER: PATHS.phaser_assets+'VIDS/PLACEHOLDER.mp4',
-    },
     AUDIO: {
         SFX_MAIN: PATHS.phaser_assets+'AUDIO/SFX_MAIN.ogg',
         SFX_COMPLETION: PATHS.phaser_assets+'AUDIO/SFX_COMPLETION.ogg',
